@@ -57,9 +57,15 @@ Las plantillas están en `_plantillas/`. La nota de fuente sigue los encabezados
 
 - **Zotero es la biblioteca:** PDF, datos exactos de cada fuente y subrayados de Noe. **Obsidian es el cuaderno:** fichas, ideas y conexiones.
 - Una fuente existe para nosotros solo si está en Zotero. Su nota en `Fuentes/` toma de ahí autores, año, título y DOI, sin copiarlos a mano, y lleva su citekey como nombre.
-- Claude lee Zotero en esta Mac (su conexión local, con Zotero abierto) solo para leer. Nunca modifica la biblioteca de Noe.
-- Los subrayados de Noe pasan a la ficha como citas literales con su página, en un bloque `> [!cita] p. X`.
-- Conexión pendiente de probar (2026-11-07): falta la cuenta de Noe y el primer paper guardado (Linear NOE-547).
+- **Cero fricción para Noe (decisión de Noe, 2026-11-07):** él solo pasa el paper (link, DOI, título o PDF). Claude hace el resto:
+  1. Verifica los datos en el registro oficial (DOI, Crossref, la revista), nunca de memoria.
+  2. Guarda la fuente en Zotero con su PDF, por la conexión local (`127.0.0.1:23119/connector/saveItems`, con Zotero abierto: `open -g -a Zotero`).
+  3. Propone la ficha y sus conexiones.
+  4. Con la aprobación de Noe, escribe la nota y hace commit y push.
+- Zotero funciona sin cuenta. Para leer la biblioteca, Claude copia `~/Zotero/zotero.sqlite` (con su `-wal`) al scratchpad y la lee en modo solo lectura. Nunca borra ni edita registros existentes; solo agrega fuentes que Noe pasó.
+- Si Noe subraya un PDF en Zotero, sus subrayados pasan a la ficha como citas literales con su página, en un bloque `> [!cita] p. X`.
+- Sin cuenta, los PDF viven solo en esta Mac. Falta decidir su respaldo cuando haya varios.
+- Primera prueba con un paper real: pendiente.
 
 ## Cómo trabajamos
 
