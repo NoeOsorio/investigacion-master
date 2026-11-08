@@ -65,7 +65,30 @@ Las plantillas están en `_plantillas/`. La nota de fuente sigue los encabezados
 - Zotero funciona sin cuenta. Para leer la biblioteca, Claude copia `~/Zotero/zotero.sqlite` (con su `-wal`) al scratchpad y la lee en modo solo lectura. Nunca borra ni edita registros existentes; solo agrega fuentes que Noe pasó.
 - Si Noe subraya un PDF en Zotero, sus subrayados pasan a la ficha como citas literales con su página, en un bloque `> [!cita] p. X`.
 - Sin cuenta, los PDF viven solo en esta Mac. Falta decidir su respaldo cuando haya varios.
-- Primera prueba con un paper real: pendiente.
+
+### Sincronización: primer paso de cada sesión en este vault
+
+Noe a veces guarda fuentes desde Chrome con la extensión de Zotero, y a veces las guarda Claude. Por eso, **al empezar cada sesión de trabajo aquí, antes de lo demás**:
+
+1. Copia `~/Zotero/zotero.sqlite` y `zotero.sqlite-wal` a una carpeta del scratchpad y lista la biblioteca con esta consulta:
+   ```sql
+   SELECT i.key AS zotero, t.typeName AS tipo,
+    (SELECT v.value FROM itemData d JOIN itemDataValues v USING(valueID) JOIN fields f USING(fieldID) WHERE d.itemID=i.itemID AND f.fieldName='title') AS titulo,
+    (SELECT v.value FROM itemData d JOIN itemDataValues v USING(valueID) JOIN fields f USING(fieldID) WHERE d.itemID=i.itemID AND f.fieldName='DOI') AS doi,
+    (SELECT substr(v.value,1,4) FROM itemData d JOIN itemDataValues v USING(valueID) JOIN fields f USING(fieldID) WHERE d.itemID=i.itemID AND f.fieldName='date') AS año,
+    (SELECT c.lastName FROM itemCreators ic JOIN creators c USING(creatorID) WHERE ic.itemID=i.itemID ORDER BY ic.orderIndex LIMIT 1) AS autor,
+    i.dateAdded AS agregado
+   FROM items i JOIN itemTypes t USING(itemTypeID)
+   WHERE t.typeName NOT IN ('attachment','note','annotation')
+     AND i.itemID NOT IN (SELECT itemID FROM deletedItems)
+   ORDER BY i.dateAdded;
+   ```
+2. Compara con la propiedad `zotero:` de las notas en `Fuentes/`:
+   - **En Zotero sin nota:** verifica los datos con el DOI (Crossref) y crea la nota de fuente solo con datos (`leido: pendiente`). La ficha de contenido se hace cuando Noe la pida o la apruebe.
+   - **Nota sin registro en Zotero:** avisa a Noe, porque rompe la regla madre.
+   - **Duplicados** (por ejemplo, la página web y el artículo con el mismo DOI): avisa a Noe para que los borre él en Zotero. La nota se vincula al artículo, nunca a la página web.
+   - **Subrayados nuevos** en `itemAnnotations`: ofrece pasarlos a la ficha.
+3. Commit y push de lo creado, y un resumen de una línea para Noe: «Zotero: 2 nuevas, 1 duplicado, 0 sin registro».
 
 ## Cómo trabajamos
 
