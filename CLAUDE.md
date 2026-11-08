@@ -51,4 +51,6 @@ Las plantillas están en `_plantillas/`. La nota de fuente sigue los encabezados
 
 ## Respaldo
 
-- Git con repo privado en GitHub. Los PDF no entran al repo (`.gitignore`): viven en Zotero, por tamaño y por derechos de autor.
+- Git con repo **público** en GitHub (investigación open source): `NoeOsorio/investigacion-master`. Los PDF no entran al repo (`.gitignore`): viven en Zotero, por tamaño y por derechos de autor.
+- **Cada modificación aprobada se guarda y se sube en el momento:** commit y push al terminar cada cambio. No hay respaldo automático programado (decisión de Noe, 2026-11-07).
+- Como el repo es público, revisa antes de cada commit que no se cuelen datos personales ni de participantes.
