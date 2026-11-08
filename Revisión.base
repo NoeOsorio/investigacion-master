@@ -3,8 +3,8 @@ views:
     name: Sin referencia
     filters:
       and:
-        - 'tipo == "idea" || tipo == "diario"'
-        - 'referencias.isEmpty() || referencias.contains("pendiente")'
+        - tipo == "idea" || tipo == "diario"
+        - referencias.isEmpty() || referencias.contains("pendiente")
     order:
       - file.name
       - tipo
@@ -14,7 +14,7 @@ views:
     name: Fuentes
     filters:
       and:
-        - 'tipo == "fuente"'
+        - tipo == "fuente"
     order:
       - file.name
       - autores
@@ -26,7 +26,7 @@ views:
     name: Ideas por uso
     filters:
       and:
-        - 'tipo == "idea"'
+        - tipo == "idea"
     groupBy:
       property: uso
       direction: ASC

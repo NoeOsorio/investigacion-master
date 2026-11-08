@@ -2,5 +2,11 @@
   "newFileLocation": "folder",
   "newFileFolderPath": "Ideas",
   "alwaysUpdateLinks": true,
-  "useMarkdownLinks": false
+  "useMarkdownLinks": false,
+  "userIgnoreFilters": [
+    "CLAUDE.md",
+    "README.md",
+    "LICENSE",
+    "_plantillas/"
+  ]
 }
