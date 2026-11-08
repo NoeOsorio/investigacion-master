@@ -5,3 +5,6 @@
 .obsidian/cache
 .trash/
 .DS_Store
+
+# Datos de participantes: nunca salen de esta Mac
+Campo-privado/

@@ -25,6 +25,17 @@ Este vault de Obsidian es la base de la investigación de Noe. Claude trabaja aq
 - **Autoplagio.** Si una idea ya se usó en un texto entregado o publicado por Noe, se anota en `usada_en` para no reciclarla sin citarse a sí mismo.
 - **Las fuentes también pueden plagiar.** Si dos fuentes dicen lo mismo casi con las mismas palabras, se marca en ambas notas y se avisa a Noe.
 
+## Datos de campo: privados siempre
+
+El repo es público. Los participantes (dueños, empleados, candidatos) nunca se exponen, por ética de investigación y por la Ley Federal de Protección de Datos Personales en Posesión de los Particulares.
+
+- **`Campo-privado/`** guarda las entrevistas en bruto, transcripciones, grabaciones, consentimientos firmados y cualquier dato que identifique a alguien. Está en `.gitignore`: nunca se sube. Nunca usar `git add -f` ahí.
+- **Al resto del vault solo llega lo anonimizado:** códigos en lugar de nombres (`Negocio A`, `Participante 03`) y datos generales (giro, ciudad grande o región, número de empleados). Nada que permita reconocer a alguien al combinar datos.
+- La tabla que une códigos con identidades reales vive solo en `Campo-privado/`.
+- Antes de anonimizar, se pide el consentimiento informado. Sin consentimiento, el dato no se usa.
+- La versión anonimizada de cada entrevista o caso va en `Campo/` (pública), con `tipo: campo`. Una idea puede usarla como referencia, por ejemplo `[[Participante 03]]` o `[[Negocio A]]`: es evidencia propia y cuenta como fuente.
+- `Campo-privado/` no está en GitHub: necesita su propio respaldo.
+
 ## Tipos de nota
 
 | Tipo | Carpeta | Nombre del archivo | Para qué |
