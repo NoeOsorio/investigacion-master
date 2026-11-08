@@ -1,0 +1,38 @@
+views:
+  - type: table
+    name: Sin referencia
+    filters:
+      and:
+        - 'tipo == "idea" || tipo == "diario"'
+        - 'referencias.isEmpty() || referencias.contains("pendiente")'
+    order:
+      - file.name
+      - tipo
+      - estado
+      - file.mtime
+  - type: table
+    name: Fuentes
+    filters:
+      and:
+        - 'tipo == "fuente"'
+    order:
+      - file.name
+      - autores
+      - año
+      - leido
+      - uso
+      - cita_a
+  - type: table
+    name: Ideas por uso
+    filters:
+      and:
+        - 'tipo == "idea"'
+    groupBy:
+      property: uso
+      direction: ASC
+    order:
+      - file.name
+      - estado
+      - referencias
+      - fundamenta
+      - refuta

@@ -1,0 +1,7 @@
+# Los PDF viven en Zotero (tamaño y derechos de autor)
+*.pdf
+*.epub
+.obsidian/workspace*.json
+.obsidian/cache
+.trash/
+.DS_Store
