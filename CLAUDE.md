@@ -53,6 +53,14 @@ Las plantillas están en `_plantillas/`. La nota de fuente sigue los encabezados
 - `cita_a` (solo fuentes): otras fuentes que este texto cita y que nos importan.
 - `uso`: en qué nos sirve. Valores actuales, se pueden refinar: `marco teórico`, `metodología`, `datos`, `experimento`, `producto final`.
 
+## Zotero → Obsidian
+
+- **Zotero es la biblioteca:** PDF, datos exactos de cada fuente y subrayados de Noe. **Obsidian es el cuaderno:** fichas, ideas y conexiones.
+- Una fuente existe para nosotros solo si está en Zotero. Su nota en `Fuentes/` toma de ahí autores, año, título y DOI, sin copiarlos a mano, y lleva su citekey como nombre.
+- Claude lee Zotero en esta Mac (su conexión local, con Zotero abierto) solo para leer. Nunca modifica la biblioteca de Noe.
+- Los subrayados de Noe pasan a la ficha como citas literales con su página, en un bloque `> [!cita] p. X`.
+- Conexión pendiente de probar (2026-11-07): falta la cuenta de Noe y el primer paper guardado (Linear NOE-547).
+
 ## Cómo trabajamos
 
 1. Noe escribe una idea suelta. Claude propone la nota: la idea más precisa, sus referencias, qué fundamenta o refuta, su `uso` y una pregunta crítica.
