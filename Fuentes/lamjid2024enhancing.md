@@ -1,7 +1,7 @@
 ---
 tipo: fuente
 citekey: lamjid2024enhancing
-zotero: E5WEPZV4
+pdf: "[[PDFs/lamjid2024enhancing.pdf]]"
 autores: ["Lamjid, Asmaa", "Ariss, Anass", "Ennejjai, Imane", "Mabrouki, Jamal", "Ziti, Soumia"]
 año: 2024
 titulo: "Enhancing the hiring process: A predictive system for soft skills assessment"

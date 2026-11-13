@@ -1,7 +1,7 @@
 ---
 tipo: fuente
 citekey: ringelband2025some
-zotero: L3HZUMH9
+pdf: "[[PDFs/ringelband2025some.pdf]]"
 autores: ["Ringelband, Olaf", "Warneke, Christian"]
 año: 2025
 titulo: "Some ethical and legal issues in using artificial intelligence in personnel selection"

@@ -1,7 +1,7 @@
 ---
 tipo: fuente
 citekey:
-zotero:
+pdf:
 autores: []
 año:
 titulo:

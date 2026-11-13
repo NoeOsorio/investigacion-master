@@ -1,7 +1,7 @@
 ---
 tipo: fuente
 citekey: durairaj2026artificial
-zotero: KBXZLUCL
+pdf: "[[PDFs/durairaj2026artificial.pdf]]"
 autores: ["Durairaj, D. Joseph", "Prabadevi, M. N."]
 año: 2026
 titulo: "Artificial intelligence in the campus recruitment: A transformative approach to modern talent acquisition"

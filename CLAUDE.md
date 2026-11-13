@@ -16,7 +16,7 @@ Este vault de Obsidian es la base de la investigación de Noe. Claude trabaja aq
 
 1. **Toda nota (idea, diario o lo que sea) se apoya en al menos una fuente.** Va en la propiedad `referencias` como enlace a la nota de la fuente, por ejemplo `[[foucault1975vigilar]]`.
 2. **Una intuición propia también se ancla.** Se guarda como hipótesis (`estado: hipótesis`) y se enlaza a la fuente que la provocó o a la que habría que contrastar. Si todavía no hay ninguna, se queda en el diario con `referencias: [pendiente]` y no pasa a `Ideas/` hasta tener fuente.
-3. **Nunca se inventa una fuente.** Ni autor, ni año, ni DOI, ni página, ni cita. Una nota de fuente se crea solo a partir de algo que existe y se revisó: un PDF que Noe dio, un registro de Zotero o un DOI comprobado. Si falta un dato se escribe `[verificar]`.
+3. **Nunca se inventa una fuente.** Ni autor, ni año, ni DOI, ni página, ni cita. Una nota de fuente se crea solo a partir de algo que existe y se revisó: un PDF que Noe dio o un DOI comprobado. Si falta un dato se escribe `[verificar]`.
 
 ## Plagio: cuidarnos y cuidar a los autores
 
@@ -53,42 +53,22 @@ Las plantillas están en `_plantillas/`. La nota de fuente sigue los encabezados
 - `cita_a` (solo fuentes): otras fuentes que este texto cita y que nos importan.
 - `uso`: en qué nos sirve. Valores actuales, se pueden refinar: `marco teórico`, `metodología`, `datos`, `experimento`, `producto final`.
 
-## Zotero → Obsidian
+## Fuentes y PDF (sin Zotero, decisión de Noe, 2026-11-13)
 
-- **Zotero es la biblioteca:** PDF, datos exactos de cada fuente y subrayados de Noe. **Obsidian es el cuaderno:** fichas, ideas y conexiones.
-- Una fuente existe para nosotros solo si está en Zotero. Su nota en `Fuentes/` toma de ahí autores, año, título y DOI, sin copiarlos a mano, y lleva su citekey como nombre.
-- **Cero fricción para Noe (decisión de Noe, 2026-11-07):** él solo pasa el paper (link, DOI, título o PDF). Claude hace el resto:
-  1. Verifica los datos en el registro oficial (DOI, Crossref, la revista), nunca de memoria.
-  2. Guarda la fuente en Zotero con su PDF, por la conexión local (`127.0.0.1:23119/connector/saveItems`, con Zotero abierto: `open -g -a Zotero`).
-  3. Propone la ficha y sus conexiones.
-  4. Con la aprobación de Noe, escribe la nota y hace commit y push.
-- Zotero funciona sin cuenta. Para leer la biblioteca, Claude copia `~/Zotero/zotero.sqlite` (con su `-wal`) al scratchpad y la lee en modo solo lectura. Nunca borra ni edita registros existentes; solo agrega fuentes que Noe pasó.
-- Si Noe subraya un PDF en Zotero, sus subrayados pasan a la ficha como citas literales con su página, en un bloque `> [!cita] p. X`.
-- Sin cuenta, los PDF viven solo en esta Mac. Falta decidir su respaldo cuando haya varios.
+Zotero se dejó: su extensión guardaba datos incompletos o basura con EBSCO. Ahora todo vive en el vault.
 
-### Sincronización: primer paso de cada sesión en este vault
+- **Noe solo pasa el paper:** el PDF (arrastrado al chat, en Descargas o dejado en `PDFs/`), un link, un DOI o el título. Claude hace el resto.
+- **Datos:** se toman del PDF y se verifican con el DOI en Crossref o en la revista, nunca de memoria. Si no coinciden, gana el encabezado del artículo y se anota la diferencia.
+- **PDF:** se copia a `PDFs/` con el citekey como nombre (`harris2025commitment.pdf`). La nota de fuente lo enlaza en la propiedad `pdf`. Obsidian abre el PDF ahí mismo.
+- **Los PDF nunca van a GitHub** (`*.pdf` está en `.gitignore`), por tamaño y por derechos de autor. Viven solo en esta Mac: necesitan su propio respaldo, igual que `Campo-privado/`.
+- **Derechos de uso con IA:** antes de leer un PDF a fondo, revisa su aviso de copyright. Si la editorial prohíbe usarlo con IA (por ejemplo, Wolters Kluwer), no se procesa: se avisa a Noe. Si reserva la minería de texto (por ejemplo, la APA), se le pregunta a Noe cómo fichar.
+- **Calidad:** al crear la nota, avisa si la revista tiene señales de baja calidad o si el texto no es investigación (columna, publicidad, conflicto de interés).
+- La nota se crea solo con datos (`leido: pendiente`). La ficha de contenido se hace cuando Noe la pide, y se escribe cuando la aprueba.
+- La bibliografía en APA 7 la genera Claude a partir de las notas de `Fuentes/`, que ya tienen los datos verificados.
 
-Noe a veces guarda fuentes desde Chrome con la extensión de Zotero, y a veces las guarda Claude. Por eso, **al empezar cada sesión de trabajo aquí, antes de lo demás**:
+### Primer paso de cada sesión en este vault
 
-1. Copia `~/Zotero/zotero.sqlite` y `zotero.sqlite-wal` a una carpeta del scratchpad y lista la biblioteca con esta consulta:
-   ```sql
-   SELECT i.key AS zotero, t.typeName AS tipo,
-    (SELECT v.value FROM itemData d JOIN itemDataValues v USING(valueID) JOIN fields f USING(fieldID) WHERE d.itemID=i.itemID AND f.fieldName='title') AS titulo,
-    (SELECT v.value FROM itemData d JOIN itemDataValues v USING(valueID) JOIN fields f USING(fieldID) WHERE d.itemID=i.itemID AND f.fieldName='DOI') AS doi,
-    (SELECT substr(v.value,1,4) FROM itemData d JOIN itemDataValues v USING(valueID) JOIN fields f USING(fieldID) WHERE d.itemID=i.itemID AND f.fieldName='date') AS año,
-    (SELECT c.lastName FROM itemCreators ic JOIN creators c USING(creatorID) WHERE ic.itemID=i.itemID ORDER BY ic.orderIndex LIMIT 1) AS autor,
-    i.dateAdded AS agregado
-   FROM items i JOIN itemTypes t USING(itemTypeID)
-   WHERE t.typeName NOT IN ('attachment','note','annotation')
-     AND i.itemID NOT IN (SELECT itemID FROM deletedItems)
-   ORDER BY i.dateAdded;
-   ```
-2. Compara con la propiedad `zotero:` de las notas en `Fuentes/`:
-   - **En Zotero sin nota:** verifica los datos con el DOI (Crossref) y crea la nota de fuente solo con datos (`leido: pendiente`). La ficha de contenido se hace cuando Noe la pida o la apruebe.
-   - **Nota sin registro en Zotero:** avisa a Noe, porque rompe la regla madre.
-   - **Duplicados** (por ejemplo, la página web y el artículo con el mismo DOI): avisa a Noe para que los borre él en Zotero. La nota se vincula al artículo, nunca a la página web.
-   - **Subrayados nuevos** en `itemAnnotations`: ofrece pasarlos a la ficha.
-3. Commit y push de lo creado, y un resumen de una línea para Noe: «Zotero: 2 nuevas, 1 duplicado, 0 sin registro».
+Revisa `PDFs/`: cualquier PDF sin una nota en `Fuentes/` que lo enlace se identifica, se verifica y recibe su nota con datos. Avisa también de notas cuyo PDF falta. Commit, push y un resumen de una línea para Noe.
 
 ## Cómo trabajamos
 
@@ -99,6 +79,6 @@ Noe a veces guarda fuentes desde Chrome con la extensión de Zotero, y a veces l
 
 ## Respaldo
 
-- Git con repo **público** en GitHub (investigación open source): `NoeOsorio/investigacion-master`. Los PDF no entran al repo (`.gitignore`): viven en Zotero, por tamaño y por derechos de autor.
+- Git con repo **público** en GitHub (investigación open source): `NoeOsorio/investigacion-master`. Los PDF no entran al repo (`.gitignore`): viven en `PDFs/`, solo en esta Mac, por tamaño y por derechos de autor.
 - **Cada modificación aprobada se guarda y se sube en el momento:** commit y push al terminar cada cambio. No hay respaldo automático programado (decisión de Noe, 2026-11-07).
 - Como el repo es público, revisa antes de cada commit que no se cuelen datos personales ni de participantes.

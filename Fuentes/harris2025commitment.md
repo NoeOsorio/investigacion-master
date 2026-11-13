@@ -1,7 +1,7 @@
 ---
 tipo: fuente
 citekey: harris2025commitment
-zotero: AU77Q58S
+pdf: "[[PDFs/harris2025commitment.pdf]]"
 autores: ["Harris, Lloyd C."]
 año: 2025
 titulo: "Commitment and quiet quitting: A qualitative longitudinal study"
