@@ -77,6 +77,19 @@ Revisa `PDFs/`: cualquier PDF sin una nota en `Fuentes/` que lo enlace se identi
 3. Cada cierto tiempo, una pasada de conexiones: enlaces que faltan, contradicciones entre fuentes, ideas sin evidencia y grupos que ya forman un capítulo. Noe decide qué se queda.
 4. `Revisión.base` muestra las notas sin referencia y las fuentes por uso.
 
+## Formato de entrega: APA 7 y guía de la UDLAP
+
+Noe estudia en la UDLAP. Su guía (Centro de Escritura, https://www.udlap.mx/centrodeescritura/files/APA-Guia.pdf, 2015) manda sobre APA donde la contradice. Lo que pide:
+
+- **Página y letra:** tamaño carta; márgenes de 2.5 cm (superior, inferior y derecho) y 3 cm (izquierdo). Times New Roman 12 en todo, títulos incluidos, sin mezclar fuentes. Número de página arriba a la derecha; la portada no se numera.
+- **Texto:** doble espacio, sin espacio extra entre párrafos. Sangría de 1.27 cm, salvo en el primer párrafo después de un título. Sin negritas, cursivas ni subrayados en el texto, salvo que hagan falta.
+- **Títulos:** centrados, de 12 puntos, sin subrayado, sin mayúsculas sostenidas y sin punto final.
+- **Estructura del artículo:** portada; resumen de unas 120 palabras, con palabras clave; introducción; materiales y métodos; resultados; discusión (modelo de Toulmin); conclusiones; notas a pie; referencias; anexos. Alrededor de 15 cuartillas de contenido.
+- **Referencias:** título «Referencias»; mínimo 15 fuentes; fuentes electrónicas especializadas y arbitradas; orden alfabético estricto, sin numeración ni viñetas; doble espacio.
+- **Citas:** directa corta (menos de 40 palabras) entre comillas, con página; directa larga en bloque, a espacio sencillo. Cita de cita: «(Martínez, citado en Cortés, 1999, p. 52)».
+- **Evaluación:** argumentación con el modelo de Toulmin 50 %, formato 20 %, adecuación discursiva 30 %.
+- Las referencias se escriben en APA 7, edición en español: «y» entre autores, «s.f.», «Recuperado el … de», «Artículo N».
+
 ## Respaldo
 
 - Git con repo **público** en GitHub (investigación open source): `NoeOsorio/investigacion-master`. Los PDF no entran al repo (`.gitignore`): viven en `PDFs/`, solo en esta Mac, por tamaño y por derechos de autor.
