@@ -12,7 +12,7 @@ uso: []
 cita_a: []
 usada_en: []
 ---
-**Referencia:** Durairaj, D. J., & Prabadevi, M. N. (2026). Artificial intelligence in the campus recruitment: A transformative approach to modern talent acquisition. *International Scientific Journal of Engineering and Management, 5*(3), 1–9 `[verificar: el PDF tiene 6 páginas]`. https://doi.org/10.55041/ISJEM05689
+**Referencia:** Durairaj, D. J., & Prabadevi, M. N. (2026). Artificial intelligence in the campus recruitment: A transformative approach to modern talent acquisition. *International Scientific Journal of Engineering and Management, 5*(3), 1–9 `[verificar: Crossref dice 1–9, el PDF numera 1–5]`. https://doi.org/10.55041/ISJEM05689
 
 *Datos verificados en Crossref (2026-11-13). La copia de EBSCO prohíbe usarla con IA: no se ficha con IA. Crossref registra mal los nombres de los autores; el orden apellido-nombre `[verificar]`.*
 

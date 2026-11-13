@@ -12,6 +12,6 @@ uso: []
 cita_a: []
 usada_en: []
 ---
-**Referencia:** Lamjid, A., Ariss, A., Ennejjai, I., Mabrouki, J., & Ziti, S. (2024). Enhancing the hiring process: A predictive system for soft skills assessment. *Data and Metadata, 3*, 387. https://doi.org/10.56294/dm2024.387
+**Referencia:** Lamjid, A., Ariss, A., Ennejjai, I., Mabrouki, J., & Ziti, S. (2024). Enhancing the hiring process: A predictive system for soft skills assessment. *Data and Metadata, 3*, Article 387. https://doi.org/10.56294/dm2024.387
 
 *Datos verificados en Crossref y en el PDF (2026-11-13). Crossref y la propia revista invierten nombre y apellido de dos autores (Ariss, Ziti); aquí se usa el orden del encabezado del artículo.*
