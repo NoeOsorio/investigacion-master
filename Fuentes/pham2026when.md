@@ -12,6 +12,6 @@ uso: []
 cita_a: []
 usada_en: []
 ---
-**Referencia:** Pham, D. N., Rios, L. A., & Workiewicz, M. (2026). When do firms learn by hiring? How complexity moderates the value of new knowledge. *Strategic Management Journal, 47*(5), 1244–1271. https://doi.org/10.1002/smj.70061
+**Referencia:** Pham, D. N., Rios, L. A. y Workiewicz, M. (2026). When do firms learn by hiring? How complexity moderates the value of new knowledge. *Strategic Management Journal, 47*(5), 1244–1271. https://doi.org/10.1002/smj.70061
 
 *Datos verificados en Crossref (2026-11-13), publicado en línea el 2025-12-26. Licencia CC BY 4.0. El PDF es la versión publicada, descargada del repositorio de la Universitat Ramon Llull (2026-11-13); reemplaza la copia de EBSCO, que prohibía usarla con IA.*

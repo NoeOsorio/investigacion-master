@@ -12,7 +12,7 @@ uso: [marco teórico]
 cita_a: ["[[cardon2004managing]]", "[[harney2021quarter]]", "[[amarakoon2022attraction]]", "[[storey2010linking]]", "[[bowen2004understanding]]", "[[oecd2019outlook]]"]
 usada_en: []
 ---
-**Referencia:** Harney, B., Gilman, M., Mayson, S., & Raby, S. (2022). Advancing understanding of HRM in small and medium-sized enterprises (SMEs): Critical questions and future prospects. *The International Journal of Human Resource Management, 33*(16), 3175–3196. https://doi.org/10.1080/09585192.2022.2109375
+**Referencia:** Harney, B., Gilman, M., Mayson, S. y Raby, S. (2022). Advancing understanding of HRM in small and medium-sized enterprises (SMEs): Critical questions and future prospects. *The International Journal of Human Resource Management, 33*(16), 3175–3196. https://doi.org/10.1080/09585192.2022.2109375
 
 *Datos verificados en Crossref (2026-11-07). Las páginas «ms. p.» son del manuscrito aceptado (el PDF en `PDFs/`), no de la revista: para citas literales, `[verificar]` la página publicada.*
 
