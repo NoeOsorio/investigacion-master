@@ -60,7 +60,8 @@ Zotero se dejó: su extensión guardaba datos incompletos o basura con EBSCO. Ah
 - **Noe solo pasa el paper:** el PDF (arrastrado al chat, en Descargas o dejado en `PDFs/`), un link, un DOI o el título. Claude hace el resto.
 - **Datos:** se toman del PDF y se verifican con el DOI en Crossref o en la revista, nunca de memoria. Si no coinciden, gana el encabezado del artículo y se anota la diferencia.
 - **PDF:** se copia a `PDFs/` con el citekey como nombre (`harris2025commitment.pdf`). La nota de fuente lo enlaza en la propiedad `pdf`. Obsidian abre el PDF ahí mismo.
-- **Los PDF nunca van a GitHub** (`*.pdf` está en `.gitignore`), por tamaño y por derechos de autor. Viven solo en esta Mac: necesitan su propio respaldo, igual que `Campo-privado/`.
+- **Los PDF nunca van a GitHub** (`*.pdf` y `PDFs` están en `.gitignore`), por tamaño y por derechos de autor.
+- **Los PDF viven en Google Drive (decisión de Noe, 2026-11-16)**, para consultarlos desde cualquier lugar: `My Drive/Maestria Psicologia Organizacional /Practicas de Campo I/PDFs` (cuenta osorionoe@gmail.com; el nombre de la carpeta de la maestría termina en espacio). `PDFs/` en el vault es un acceso directo (symlink) a esa carpeta: copiar ahí un PDF lo guarda en Drive. Esa carpeta es privada y no se comparte: los PDF de EBSCO son solo para uso personal.
 - **Derechos de uso con IA:** antes de leer un PDF a fondo, revisa su aviso de derechos. EBSCO agrega al final de cada descarga un pie «Copyright of …»: en algunos documentos incluye «content may not be used with any artificial intelligence tools». Ese documento no se procesa con IA. Si el artículo tiene licencia abierta (CC BY) en la editorial (revisa `license` en Crossref), se usa la versión de la editorial, previo permiso de Noe para descargarla. Si la editorial reserva la minería de texto (por ejemplo, la APA), se le pregunta a Noe cómo fichar.
 - **Calidad:** al crear la nota, avisa si la revista tiene señales de baja calidad o si el texto no es investigación (columna, publicidad, conflicto de interés).
 - La nota se crea solo con datos (`leido: pendiente`). La ficha de contenido se hace cuando Noe la pide, y se escribe cuando la aprueba.
@@ -93,6 +94,6 @@ Noe estudia en la UDLAP. Su guía (Centro de Escritura, https://www.udlap.mx/cen
 
 ## Respaldo
 
-- Git con repo **público** en GitHub (investigación open source): `NoeOsorio/investigacion-master`. Los PDF no entran al repo (`.gitignore`): viven en `PDFs/`, solo en esta Mac, por tamaño y por derechos de autor.
+- Git con repo **público** en GitHub (investigación open source): `NoeOsorio/investigacion-master`. Los PDF no entran al repo (`.gitignore`): viven en Google Drive (ver «Fuentes y PDF»), por tamaño y por derechos de autor.
 - **Cada modificación aprobada se guarda y se sube en el momento:** commit y push al terminar cada cambio. No hay respaldo automático programado (decisión de Noe, 2026-11-07).
 - Como el repo es público, revisa antes de cada commit que no se cuelen datos personales ni de participantes.
