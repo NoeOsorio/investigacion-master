@@ -23,3 +23,6 @@ Hecho antes de la regla de máximo 3 fuentes por podcast: usa 10, así que es un
 ## Mis notas
 *Lo que me llevo, lo que no me quedó claro y qué verificar en la fuente.*
 
+- **Aspiración:** no es lo mismo una empresa chiquita que una startup, aunque las dos sean pequeñas. La startup tiene un hambre voraz y quiere ser algo mucho más grande; la empresa chiquita busca sobrevivir. Valdría la pena un «diagnóstico de aspiración». Ver [[La aspiración del negocio cambia cómo contrata]].
+- **Recursos:** la falta de recursos dicta cómo se hacen las cosas, para bien y para mal. Van al día y cualquier error les cuesta mucho en proporción: perder 100 de 1,000 es el 10 %; perder 100 de 10,000 es el 1 %. Ver [[En un negocio pequeño el mismo error cuesta proporcionalmente más]].
+
