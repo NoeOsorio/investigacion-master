@@ -84,6 +84,14 @@ Revisa `PDFs/`: cualquier PDF sin una nota en `Fuentes/` que lo enlace se identi
 3. Cada cierto tiempo, una pasada de conexiones: enlaces que faltan, contradicciones entre fuentes, ideas sin evidencia y grupos que ya forman un capítulo. Noe decide qué se queda.
 4. `Revisión.base` muestra las notas sin referencia y las fuentes por uso.
 
+## Podcasts en NotebookLM (reglas de Noe, 2026-11-16)
+
+- **Un solo cuaderno** para toda la línea de investigación: «Contratación en pequeños negocios: el problema» (https://notebook.google.com/notebook/73a40753-7492-4c33-9ad8-1757e70fee6f). Nunca se crean cuadernos nuevos: los subtemas van como podcasts distintos dentro de ese mismo cuaderno.
+- **Máximo 3 fuentes por podcast**, para entender cada fuente a fondo y no hacer un popurrí. Al generar, se eligen solo esas fuentes en el selector «Fuentes» del resumen en audio.
+- **Cada podcast responde una sola pregunta** (o resuelve una duda concreta), escrita en el enfoque del episodio.
+- Se hacen poco a poco: uno, Noe lo escucha, y luego el siguiente.
+- Solo se suben fuentes con `ia: sin restricción`.
+
 ## Formato de entrega: APA 7 y guía de la UDLAP
 
 Noe estudia en la UDLAP. Su guía (Centro de Escritura, https://www.udlap.mx/centrodeescritura/files/APA-Guia.pdf, 2015) manda sobre APA donde la contradice. Lo que pide:
