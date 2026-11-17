@@ -9,7 +9,7 @@ doi: 10.1080/09585192.2022.2109375
 tipo_texto: revisión conceptual (introducción a número especial)
 leido: núcleo
 uso: [marco teórico]
-cita_a: ["[[cardon2004managing]]", "[[harney2021quarter]]", "[[amarakoon2022attraction]]", "[[storey2010linking]]", "[[bowen2004understanding]]", "[[oecd2019outlook]]"]
+cita_a: ["[[cardon2004managing]]", "[[harney2021quarter]]", "[[vanlancker2022hrm]]", "[[atkinson2022small]]", "[[amarakoon2022attraction]]", "[[storey2010linking]]", "[[bowen2004understanding]]", "[[oecd2019outlook]]"]
 usada_en: []
 ---
 **Referencia:** Harney, B., Gilman, M., Mayson, S. y Raby, S. (2022). Advancing understanding of HRM in small and medium-sized enterprises (SMEs): Critical questions and future prospects. *The International Journal of Human Resource Management, 33*(16), 3175–3196. https://doi.org/10.1080/09585192.2022.2109375
