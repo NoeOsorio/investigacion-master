@@ -1,8 +1,8 @@
 ---
 tipo: fuente
 citekey: friebel2023what
-pdf: 
-ia: sin revisar
+pdf: "[[PDFs/friebel2023what.pdf]]"
+ia: sin restricción
 autores: ["Friebel, Guido", "Heinz, Matthias", "Hoffman, Mitchell", "Zubanov, Nick"]
 año: 2023
 titulo: "What do employee referral programs do? Measuring the direct and overall effects of a management practice"
@@ -15,4 +15,4 @@ usada_en: []
 ---
 **Referencia:** Friebel, G., Heinz, M., Hoffman, M. y Zubanov, N. (2023). What do employee referral programs do? Measuring the direct and overall effects of a management practice. *Journal of Political Economy, 131*(3), 633–686. https://doi.org/10.1086/721735
 
-*Datos verificados en Crossref (2026-11-16). La versión final no es abierta; existe un documento de trabajo en SSRN (https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3401857), que no es la versión publicada. Conecta con la contratación por redes de [[saygin2021coworkers]].*
+*Datos verificados en Crossref (2026-11-16). PDF de la versión publicada, de EBSCO por la biblioteca de la UDLAP (2026-11-16); su aviso no prohíbe el uso con IA. Existe también un documento de trabajo en SSRN, que no es la versión publicada. Conecta con la contratación por redes de [[saygin2021coworkers]].*
