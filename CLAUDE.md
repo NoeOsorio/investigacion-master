@@ -85,6 +85,7 @@ Noe estudia en la UDLAP. Su guía (Centro de Escritura, https://www.udlap.mx/cen
 - **Texto:** doble espacio, sin espacio extra entre párrafos. Sangría de 1.27 cm, salvo en el primer párrafo después de un título. Sin negritas, cursivas ni subrayados en el texto, salvo que hagan falta.
 - **Títulos:** centrados, de 12 puntos, sin subrayado, sin mayúsculas sostenidas y sin punto final.
 - **Estructura del artículo:** portada; resumen de unas 120 palabras, con palabras clave; introducción; materiales y métodos; resultados; discusión (modelo de Toulmin); conclusiones; notas a pie; referencias; anexos. Alrededor de 15 cuartillas de contenido.
+- **Antigüedad (regla de Noe, 2026-11-16):** artículos científicos de máximo 5 años (2021 en adelante); los libros pueden ser más antiguos. Los de 2021 están en el límite: avisar. Para un clásico más viejo, buscar una revisión o un metaanálisis reciente que lo actualice.
 - **Referencias:** título «Referencias»; mínimo 15 fuentes; fuentes electrónicas especializadas y arbitradas; orden alfabético estricto, sin numeración ni viñetas; doble espacio.
 - **Citas:** directa corta (menos de 40 palabras) entre comillas, con página; directa larga en bloque, a espacio sencillo. Cita de cita: «(Martínez, citado en Cortés, 1999, p. 52)».
 - **Evaluación:** argumentación con el modelo de Toulmin 50 %, formato 20 %, adecuación discursiva 30 %.
