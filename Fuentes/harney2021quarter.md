@@ -2,6 +2,7 @@
 tipo: fuente
 citekey: harney2021quarter
 pdf: "[[PDFs/harney2021quarter.pdf]]"
+ia: sin restricción
 autores: ["Harney, Brian", "Alkhalaf, Hadeel"]
 año: 2021
 titulo: "A quarter-century review of HRM in small and medium-sized enterprises: Capturing what we know, exploring where we need to go"

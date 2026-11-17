@@ -2,6 +2,7 @@
 tipo: fuente
 citekey: hennings2025recruitment
 pdf: "[[PDFs/hennings2025recruitment.pdf]]"
+ia: sin restricción
 autores: ["Hennings, Matthias", "Pilz, Matthias", "Bebenroth, Ralf"]
 año: 2025
 titulo: "Recruitment practices in times of demographic change: The case of Japan"

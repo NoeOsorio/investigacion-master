@@ -2,6 +2,7 @@
 tipo: fuente
 citekey: pham2026when
 pdf: "[[PDFs/pham2026when.pdf]]"
+ia: sin restricción
 autores: ["Pham, Dong Nghi", "Rios, Luis A.", "Workiewicz, Maciej"]
 año: 2026
 titulo: "When do firms learn by hiring? How complexity moderates the value of new knowledge"

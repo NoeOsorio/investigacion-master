@@ -2,6 +2,7 @@
 tipo: fuente
 citekey: lopezdamian2024endomarketing
 pdf: "[[PDFs/lopezdamian2024endomarketing.pdf]]"
+ia: sin restricción
 autores: ["López Damián, Jesús Alberto", "Yee Villanueva, Elizabeth"]
 año: 2024
 titulo: "Las 5E del endomarketing para reducir la rotación de personal en las pymes"

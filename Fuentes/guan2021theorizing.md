@@ -2,6 +2,7 @@
 tipo: fuente
 citekey: guan2021theorizing
 pdf: 
+ia: sin revisar
 autores: ["Guan, Yanjun", "Deng, Hong", "Fan, Lanyue", "Zhou, Xinyi"]
 año: 2021
 titulo: "Theorizing person-environment fit in a changing career world: Interdisciplinary integration and future directions"

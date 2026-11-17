@@ -2,6 +2,7 @@
 tipo: fuente
 citekey: mouw2024stepping
 pdf: "[[PDFs/mouw2024stepping.pdf]]"
+ia: sin restricción
 autores: ["Mouw, Ted", "Kalleberg, Arne L.", "Schultz, Michael A."]
 año: 2024
 titulo: "“Stepping-stone” versus “dead-end” jobs: Occupational structure, work experience, and mobility out of low-wage jobs"

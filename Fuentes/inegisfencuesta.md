@@ -2,6 +2,7 @@
 tipo: fuente
 citekey: inegisfencuesta
 pdf:
+ia: sin restricción
 url: https://www.inegi.org.mx/programas/enoe/15ymas/
 autores: ["Instituto Nacional de Estadística y Geografía"]
 año: s.f.

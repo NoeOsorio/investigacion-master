@@ -2,6 +2,7 @@
 tipo: fuente
 citekey:
 pdf:
+ia:
 autores: []
 año:
 titulo:

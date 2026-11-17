@@ -2,6 +2,7 @@
 tipo: fuente
 citekey: capitano2024if
 pdf: 
+ia: sin revisar
 autores: ["Capitano, Johnna", "Thomas, Benjamin J.", "Meglich, Patricia"]
 año: 2024
 titulo: "If I knew then what I know now: How realistic previews of onboarding influence self-selection and expectations"

@@ -2,6 +2,7 @@
 tipo: fuente
 citekey: friebel2023what
 pdf: 
+ia: sin revisar
 autores: ["Friebel, Guido", "Heinz, Matthias", "Hoffman, Mitchell", "Zubanov, Nick"]
 año: 2023
 titulo: "What do employee referral programs do? Measuring the direct and overall effects of a management practice"

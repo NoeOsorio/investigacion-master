@@ -2,6 +2,7 @@
 tipo: fuente
 citekey: reardon2026labor
 pdf: "[[PDFs/reardon2026labor.pdf]]"
+ia: prohibido
 autores: ["Reardon, Kyle", "Leon, Andre", "Unruh, Deanne K.", "Rowe, Dawn A."]
 año: 2026
 titulo: "Labor shortage impacts of the COVID-19 pandemic on entry-level employers: Strategies for hiring individuals with disabilities and justice-involved youth"

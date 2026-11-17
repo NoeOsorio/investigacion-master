@@ -2,6 +2,7 @@
 tipo: fuente
 citekey: luevanoandrade2024factores
 pdf: "[[PDFs/luevanoandrade2024factores.pdf]]"
+ia: sin restricción
 autores: ["Luévano-Andrade, Nancy Gabriela", "Castillo-Corral, Daniel", "Rodríguez Esquivel, María Angélica", "García-Vidales, Marisela Yazmín"]
 año: 2024
 titulo: "Factores de la intención de permanencia"

@@ -36,3 +36,16 @@ views:
       - referencias
       - fundamenta
       - refuta
+  - type: table
+    name: Uso con IA
+    filters:
+      and:
+        - tipo == "fuente"
+    groupBy:
+      property: ia
+      direction: ASC
+    order:
+      - file.name
+      - ia
+      - año
+      - pdf

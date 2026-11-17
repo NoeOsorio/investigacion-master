@@ -2,6 +2,7 @@
 tipo: fuente
 citekey: harney2022advancing
 pdf: "[[PDFs/harney2022advancing.pdf]]"
+ia: sin restricción
 autores: ["Harney, Brian", "Gilman, Mark", "Mayson, Susan", "Raby, Simon"]
 año: 2022
 titulo: "Advancing understanding of HRM in small and medium-sized enterprises (SMEs): critical questions and future prospects"

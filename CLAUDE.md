@@ -63,6 +63,12 @@ Zotero se dejó: su extensión guardaba datos incompletos o basura con EBSCO. Ah
 - **Los PDF nunca van a GitHub** (`*.pdf` y `PDFs` están en `.gitignore`), por tamaño y por derechos de autor.
 - **Los PDF viven en Google Drive (decisión de Noe, 2026-11-16)**, para consultarlos desde cualquier lugar: `My Drive/Maestria Psicologia Organizacional /Practicas de Campo I/PDFs` (cuenta osorionoe@gmail.com; el nombre de la carpeta de la maestría termina en espacio). `PDFs/` en el vault es un acceso directo (symlink) a esa carpeta: copiar ahí un PDF lo guarda en Drive. Esa carpeta es privada y no se comparte: los PDF de EBSCO son solo para uso personal.
 - **Derechos de uso con IA:** antes de leer un PDF a fondo, revisa su aviso de derechos. EBSCO agrega al final de cada descarga un pie «Copyright of …»: en algunos documentos incluye «content may not be used with any artificial intelligence tools». Ese documento no se procesa con IA. Si el artículo tiene licencia abierta (CC BY) en la editorial (revisa `license` en Crossref), se usa la versión de la editorial, previo permiso de Noe para descargarla. Si la editorial reserva la minería de texto (por ejemplo, la APA), se le pregunta a Noe cómo fichar.
+- **Propiedad `ia` en cada fuente (pedido de Noe, 2026-11-16):** dice si el PDF se puede usar con herramientas de IA (Claude, NotebookLM y similares).
+  - `prohibido`: el aviso del documento lo prohíbe (pie de EBSCO). No se ficha con IA ni se sube a NotebookLM: Noe lo lee él mismo.
+  - `reservado`: la editorial reserva la minería de texto y el uso con IA (por ejemplo, la APA). Preguntar a Noe antes de usarlo.
+  - `sin restricción`: no se encontró prohibición en la copia que tenemos, o la licencia es abierta.
+  - `sin revisar`: todavía no hay PDF. Se revisa cuando llegue.
+  - La vista «Uso con IA» de `Revisión.base` las agrupa.
 - **Calidad:** al crear la nota, avisa si la revista tiene señales de baja calidad o si el texto no es investigación (columna, publicidad, conflicto de interés).
 - La nota se crea solo con datos (`leido: pendiente`). La ficha de contenido se hace cuando Noe la pide, y se escribe cuando la aprueba.
 - La bibliografía en APA 7 la genera Claude a partir de las notas de `Fuentes/`, que ya tienen los datos verificados.

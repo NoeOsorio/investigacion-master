@@ -2,6 +2,7 @@
 tipo: fuente
 citekey: vanlancker2022hrm
 pdf: "[[PDFs/vanlancker2022hrm.pdf]]"
+ia: sin restricción
 autores: ["Van Lancker, Evy", "Knockaert, Mirjam", "Audenaert, Mieke", "Cardon, Melissa"]
 año: 2022
 titulo: "HRM in entrepreneurial firms: A systematic review and research agenda"

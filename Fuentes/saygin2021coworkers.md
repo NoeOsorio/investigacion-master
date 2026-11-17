@@ -2,6 +2,7 @@
 tipo: fuente
 citekey: saygin2021coworkers
 pdf: "[[PDFs/saygin2021coworkers.pdf]]"
+ia: sin restricción
 autores: ["Saygin, Perihan Ozge", "Weber, Andrea", "Weynandt, Michèle A."]
 año: 2021
 titulo: "Coworkers, networks, and job-search outcomes among displaced workers"
