@@ -1,7 +1,7 @@
 ---
 tipo: idea
 estado: borrador
-referencias: ["[[harney2022advancing]]"]
+referencias: ["[[harney2022advancing]]", "[[acfe2024occupational]]"]
 fundamenta: ["[[La aspiración del negocio cambia cómo contrata]]"]
 refuta: []
 extiende: []
@@ -13,7 +13,8 @@ Perder 100 pesos cuando ganas 1,000 es perder el 10 %; perderlos cuando ganas 10
 
 ## Evidencia
 - [[harney2022advancing]], manuscrito p. 3: por sus recursos limitados y por depender del esfuerzo de cada empleado, las pymes son especialmente vulnerables a las consecuencias de una mala gestión de personas, como las malas decisiones de contratación y la rotación.
+- [[acfe2024occupational]], p. 32: en las organizaciones de menos de 100 empleados, el fraude causó una pérdida mediana de 141,000 dólares, la segunda más alta entre todos los tamaños; como tienen presupuestos e ingresos más chicos, esa pérdida las afecta más que a las grandes.
 
 ## Lo que falta o no está probado
 - Hace falta un dato concreto del costo de una mala contratación en un negocio pequeño mexicano (pregunta 4 y 6 del diagnóstico, en [[2026-11-16]]).
-- Para fraude y robo, el informe de la ACFE (2024) tiene datos por tamaño de empresa; todavía no está en el vault.
+- La ACFE solo analiza casos reportados por sus investigadores certificados: no es una muestra representativa de todos los negocios.
