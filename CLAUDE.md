@@ -43,6 +43,7 @@ El repo es público. Los participantes (dueños, empleados, candidatos) nunca se
 | fuente | `Fuentes/` | citekey: `apellidoAñoPalabra`, ej. `foucault1975vigilar` | Un paper, libro o capítulo |
 | idea | `Ideas/` | la afirmación, corta | Una sola afirmación, conectable |
 | diario | `Diario/` | `AAAA-MM-DD` | Bitácora libre del día |
+| podcast | `Podcasts/` | el título que le dio NotebookLM | Un podcast ya escuchado: su pregunta, sus fuentes, su audio y las notas de Noe |
 
 Las plantillas están en `_plantillas/`. La nota de fuente sigue los encabezados de la skill `ficha-de-lectura`; no se cambian, para poder comparar fichas.
 
@@ -91,6 +92,7 @@ Revisa `PDFs/`: cualquier PDF sin una nota en `Fuentes/` que lo enlace se identi
 - **Cada podcast responde una sola pregunta** (o resuelve una duda concreta), escrita en el enfoque del episodio.
 - Se hacen poco a poco: uno, Noe lo escucha, y luego el siguiente.
 - Solo se suben fuentes con `ia: sin restricción`.
+- **Cada podcast escuchado se registra (pedido de Noe, 2026-11-16):** el audio va a `My Drive/Maestria Psicologia Organizacional /Practicas de Campo I/Podcasts`, con nombre `AAAA-MM-DD Título.m4a`; esa carpeta solo tiene podcasts que Noe ya escuchó. En `Podcasts/` del vault va una nota por podcast con la plantilla `_plantillas/Podcast.md`: pregunta, cuaderno, fuentes (enlaces a sus notas), duración, enlace al audio en Drive y una sección «Mis notas» para Noe. Así se puede citar y rastrear de qué fuentes sale cada idea.
 
 ## Formato de entrega: APA 7 y guía de la UDLAP
 

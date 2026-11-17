@@ -49,3 +49,15 @@ views:
       - ia
       - año
       - pdf
+  - type: table
+    name: Podcasts
+    filters:
+      and:
+        - tipo == "podcast"
+    order:
+      - file.name
+      - fecha
+      - pregunta
+      - fuentes
+      - duracion
+      - audio
