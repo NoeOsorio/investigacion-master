@@ -15,4 +15,4 @@ usada_en: []
 ---
 **Referencia:** Ortiz, D. y González Dávila, O. (2024). Should I stay or should I go? Job embeddedness and entrepreneurship in highly specialized communities in Central Mexico. *Journal of Small Business Strategy, 33*(3), 188–212. https://doi.org/10.53703/001c.94171
 
-*Datos verificados en Crossref y en el encabezado del PDF de la revista (2026-11-20). Licencia CC BY 4.0. Las páginas vienen del PDF; Crossref no las trae.*
+*Datos verificados en Crossref y en el encabezado del PDF de la revista (2026-11-20). Licencia CC BY 4.0. Las páginas vienen del PDF; Crossref no las trae. El PDF dice «Vol. 33, Issue 3, 2023» en su encabezado interno y 2024 en la cita sugerida; Crossref da 2024 [verificar].*
