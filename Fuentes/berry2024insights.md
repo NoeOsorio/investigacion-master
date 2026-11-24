@@ -3,6 +3,9 @@ tipo: fuente
 citekey: berry2024insights
 pdf: "[[PDFs/berry2024insights.pdf]]"
 ia: reservado
+origen: "repositorio de Singapore Management University"
+arbitraje: "arbitrada"
+version: "publicada"
 autores: ["Berry, Christopher M.", "Lievens, Filip", "Zhang, Charlene", "Sackett, Paul R."]
 año: 2024
 titulo: "Insights from an updated personnel selection meta-analytic matrix: Revisiting general mental ability tests’ role in the validity–diversity trade-off"

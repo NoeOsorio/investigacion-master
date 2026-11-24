@@ -3,6 +3,9 @@ tipo: fuente
 citekey: schilke2023review
 pdf: "[[PDFs/schilke2023review.pdf]]"
 ia: sin restricción
+origen: "editorial (Taylor & Francis), acceso abierto"
+arbitraje: "arbitrada"
+version: "publicada"
 autores: ["Schilke, Oliver", "Powell, Andy", "Schweitzer, Maurice E."]
 año: 2023
 titulo: "A review of experimental research on organizational trust"

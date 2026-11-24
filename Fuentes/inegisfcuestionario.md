@@ -3,6 +3,9 @@ tipo: fuente
 citekey: inegisfcuestionario
 pdf: "[[PDFs/inegisfcuestionario.pdf]]"
 ia: sin restricción
+origen: "sitio oficial del INEGI"
+arbitraje: "no arbitrada (dato oficial)"
+version: "publicada"
 autores: ["Instituto Nacional de Estadística y Geografía"]
 año: s.f.
 titulo: "Encuesta Nacional de Ocupación y Empleo (ENOE): Cuestionario de ocupación y empleo (ampliado)"

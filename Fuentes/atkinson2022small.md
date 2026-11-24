@@ -3,6 +3,9 @@ tipo: fuente
 citekey: atkinson2022small
 pdf: "[[PDFs/atkinson2022small.pdf]]"
 ia: sin restricción
+origen: "editorial (Wiley), acceso abierto"
+arbitraje: "arbitrada"
+version: "publicada"
 autores: ["Atkinson, Carol", "Lupton, Ben", "Kynighou, Anastasia", "Antcliff, Val"]
 año: 2022
 titulo: "Small firms, owner managers and (strategic?) human resource management"

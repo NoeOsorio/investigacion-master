@@ -3,6 +3,9 @@ tipo: fuente
 citekey: harney2021accommodating
 pdf: "[[PDFs/harney2021accommodating.pdf]]"
 ia: sin restricción
+origen: "repositorio de Dublin City University"
+arbitraje: "arbitrada"
+version: "publicada"
 autores: ["Harney, Brian"]
 año: 2021
 titulo: "Accommodating HRM in small and medium-sized enterprises (SMEs): A critical review"

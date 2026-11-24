@@ -3,6 +3,9 @@ tipo: fuente
 citekey: cockx2024labour
 pdf: "[[PDFs/cockx2024labour.pdf]]"
 ia: sin restricción
+origen: "repositorio de la Universidad de Gante"
+arbitraje: "arbitrada"
+version: "manuscrito aceptado"
 autores: ["Cockx, Bart", "Desiere, Sam"]
 año: 2024
 titulo: "Labour costs and the decision to hire the first employee"

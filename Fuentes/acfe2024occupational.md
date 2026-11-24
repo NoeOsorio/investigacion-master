@@ -3,6 +3,9 @@ tipo: fuente
 citekey: acfe2024occupational
 pdf: "[[PDFs/acfe2024occupational.pdf]]"
 ia: sin restricción
+origen: "sitio oficial de la ACFE"
+arbitraje: "no arbitrada (informe)"
+version: "publicada"
 autores: ["Association of Certified Fraud Examiners"]
 año: 2024
 titulo: "Occupational fraud 2024: A report to the nations"

@@ -3,6 +3,9 @@ tipo: fuente
 citekey: egidopiqueras2024etica
 pdf: "[[PDFs/egidopiqueras2024etica.pdf]]"
 ia: sin restricción
+origen: "EBSCO, biblioteca de la UDLAP"
+arbitraje: "por verificar"
+version: "publicada"
 autores: ["Egido Piqueras, Marto"]
 año: 2024
 titulo: "Ética, identidad y empleabilidad en la revisión de las redes sociales de los candidatos por parte de los empleadores"

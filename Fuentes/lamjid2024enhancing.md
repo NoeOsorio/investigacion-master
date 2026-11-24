@@ -3,6 +3,9 @@ tipo: fuente
 citekey: lamjid2024enhancing
 pdf: "[[PDFs/lamjid2024enhancing.pdf]]"
 ia: sin restricción
+origen: "EBSCO, biblioteca de la UDLAP"
+arbitraje: "por verificar"
+version: "publicada"
 autores: ["Lamjid, Asmaa", "Ariss, Anass", "Ennejjai, Imane", "Mabrouki, Jamal", "Ziti, Soumia"]
 año: 2024
 titulo: "Enhancing the hiring process: A predictive system for soft skills assessment"

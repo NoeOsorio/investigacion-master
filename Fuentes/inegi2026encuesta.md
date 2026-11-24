@@ -3,6 +3,9 @@ tipo: fuente
 citekey: inegi2026encuesta
 pdf: "[[PDFs/inegi2026encuesta.pdf]]"
 ia: sin restricción
+origen: "sitio oficial del INEGI"
+arbitraje: "no arbitrada (dato oficial)"
+version: "publicada"
 autores: ["Instituto Nacional de Estadística y Geografía"]
 año: 2026
 titulo: "Encuesta Nacional de Victimización de Empresas (ENVE) 2026"

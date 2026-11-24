@@ -3,6 +3,9 @@ tipo: fuente
 citekey: se2024mipymes
 pdf: "[[PDFs/se2024mipymes.pdf]]"
 ia: sin restricción
+origen: "sitio oficial de la Secretaría de Economía"
+arbitraje: "no arbitrada (informe)"
+version: "publicada"
 autores: ["Secretaría de Economía"]
 año: 2024
 titulo: "Mipymes mexicanas: motor de nuestra economía"

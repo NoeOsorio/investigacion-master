@@ -61,3 +61,17 @@ views:
       - fuentes
       - duracion
       - audio
+  - type: table
+    name: Arbitraje y versión
+    filters:
+      and:
+        - tipo == "fuente"
+    groupBy:
+      property: arbitraje
+      direction: ASC
+    order:
+      - file.name
+      - año
+      - arbitraje
+      - version
+      - origen

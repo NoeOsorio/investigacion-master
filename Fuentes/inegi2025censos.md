@@ -3,6 +3,9 @@ tipo: fuente
 citekey: inegi2025censos
 pdf:
 ia: sin restricción
+origen: "sitio oficial del INEGI"
+arbitraje: "no arbitrada (dato oficial)"
+version: "sin PDF"
 url: https://www.inegi.org.mx/programas/ce/2024/
 autores: ["Instituto Nacional de Estadística y Geografía"]
 año: 2025

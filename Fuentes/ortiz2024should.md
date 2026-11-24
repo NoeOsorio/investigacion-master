@@ -3,6 +3,9 @@ tipo: fuente
 citekey: ortiz2024should
 pdf: "[[PDFs/ortiz2024should.pdf]]"
 ia: sin restricción
+origen: "editorial (Journal of Small Business Strategy), acceso abierto"
+arbitraje: "arbitrada"
+version: "publicada"
 autores: ["Ortiz, Dolly", "González Dávila, Osiel"]
 año: 2024
 titulo: "Should I stay or should I go? Job embeddedness and entrepreneurship in highly specialized communities in Central Mexico"

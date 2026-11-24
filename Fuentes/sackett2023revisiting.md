@@ -3,6 +3,9 @@ tipo: fuente
 citekey: sackett2023revisiting
 pdf: "[[PDFs/sackett2023revisiting.pdf]]"
 ia: sin restricción
+origen: "editorial (Cambridge University Press), acceso abierto"
+arbitraje: "arbitrada"
+version: "publicada"
 autores: ["Sackett, Paul R.", "Zhang, Charlene", "Berry, Christopher M.", "Lievens, Filip"]
 año: 2023
 titulo: "Revisiting the design of selection systems in light of new findings regarding the validity of widely used predictors"

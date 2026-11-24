@@ -3,6 +3,9 @@ tipo: fuente
 citekey: calderonhernandez2023gestion
 pdf: "[[PDFs/calderonhernandez2023gestion.pdf]]"
 ia: sin restricción
+origen: "editorial (Universidad Icesi), acceso abierto"
+arbitraje: "arbitrada"
+version: "publicada"
 autores: ["Calderón-Hernández, Gregorio", "Vivares, Jorge A.", "Naranjo, Julia Clemencia"]
 año: 2023
 titulo: "Gestión humana en Colombia: Nivel de desarrollo de la función y de sus prácticas"

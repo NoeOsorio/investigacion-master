@@ -3,6 +3,9 @@ tipo: fuente
 citekey: inegisfencuesta
 pdf:
 ia: sin restricción
+origen: "sitio oficial del INEGI"
+arbitraje: "no arbitrada (dato oficial)"
+version: "sin PDF"
 url: https://www.inegi.org.mx/programas/enoe/15ymas/
 autores: ["Instituto Nacional de Estadística y Geografía"]
 año: s.f.

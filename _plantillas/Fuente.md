@@ -3,6 +3,9 @@ tipo: fuente
 citekey:
 pdf:
 ia:
+origen:
+arbitraje:
+version:
 autores: []
 año:
 titulo:
@@ -13,7 +16,7 @@ uso: []
 cita_a: []
 usada_en: []
 ---
-**Referencia:** [APA 7 · `[verificar]` si falta un dato]
+**Referencia:** [APA 7, con `[verificar]` si falta un dato]
 
 ### En 3 líneas
 

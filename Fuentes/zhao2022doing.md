@@ -3,6 +3,9 @@ tipo: fuente
 citekey: zhao2022doing
 pdf: "[[PDFs/zhao2022doing.pdf]]"
 ia: sin restricción
+origen: "editorial (Springer), por la biblioteca de la UDLAP"
+arbitraje: "arbitrada"
+version: "publicada"
 autores: ["Zhao, Lijing", "Lam, Long W.", "Zhu, Julie N. Y.", "Zhao, Shuming"]
 año: 2022
 titulo: "Doing it purposely? Mediation of moral disengagement in the relationship between illegitimate tasks and counterproductive work behavior"

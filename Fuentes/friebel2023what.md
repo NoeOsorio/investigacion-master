@@ -3,6 +3,9 @@ tipo: fuente
 citekey: friebel2023what
 pdf: "[[PDFs/friebel2023what.pdf]]"
 ia: sin restricción
+origen: "EBSCO, biblioteca de la UDLAP"
+arbitraje: "arbitrada"
+version: "publicada"
 autores: ["Friebel, Guido", "Heinz, Matthias", "Hoffman, Mitchell", "Zubanov, Nick"]
 año: 2023
 titulo: "What do employee referral programs do? Measuring the direct and overall effects of a management practice"

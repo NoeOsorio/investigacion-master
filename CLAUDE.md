@@ -70,6 +70,11 @@ Zotero se dejó: su extensión guardaba datos incompletos o basura con EBSCO. Ah
   - `sin restricción`: no se encontró prohibición en la copia que tenemos, o la licencia es abierta.
   - `sin revisar`: todavía no hay PDF. Se revisa cuando llegue.
   - La vista «Uso con IA» de `Revisión.base` las agrupa.
+- **Origen, arbitraje y versión (pedido de Noe, 2026-11-23).** Toda nota de fuente dice en sus propiedades de dónde sacamos el PDF y qué tipo de texto es, porque la UDLAP pide fuentes arbitradas:
+  - `origen`: dónde se obtuvo (por ejemplo «EBSCO, biblioteca de la UDLAP», «editorial (Wiley), acceso abierto», «repositorio de Dublin City University», «sitio oficial del INEGI»). Si no se sabe, `[verificar]`.
+  - `arbitraje`: `arbitrada` (revista con revisión por pares, comprobada en el sitio de la revista o en un índice como Scopus, Web of Science, SciELO, Redalyc o Latindex), `no arbitrada (dato oficial)`, `no arbitrada (informe)` o `por verificar`. Solo las arbitradas cuentan para el mínimo de 15 fuentes.
+  - `version`: `publicada` o `manuscrito aceptado`. Con un manuscrito, las páginas no son las de la revista: se cita «manuscrito, p. X» y se busca la versión publicada (gratis si es de acceso abierto, o por la biblioteca de la UDLAP).
+  - La vista «Arbitraje y versión» de `Revisión.base` las agrupa.
 - **Calidad:** al crear la nota, avisa si la revista tiene señales de baja calidad o si el texto no es investigación (columna, publicidad, conflicto de interés).
 - La nota se crea solo con datos (`leido: pendiente`). La ficha de contenido se hace cuando Noe la pide, y se escribe cuando la aprueba.
 - La bibliografía en APA 7 la genera Claude a partir de las notas de `Fuentes/`, que ya tienen los datos verificados.

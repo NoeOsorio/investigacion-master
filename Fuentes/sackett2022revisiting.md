@@ -3,6 +3,9 @@ tipo: fuente
 citekey: sackett2022revisiting
 pdf: 
 ia: reservado
+origen: "sin PDF"
+arbitraje: "arbitrada"
+version: "sin PDF"
 autores: ["Sackett, Paul R.", "Zhang, Charlene", "Berry, Christopher M.", "Lievens, Filip"]
 año: 2022
 titulo: "Revisiting meta-analytic estimates of validity in personnel selection: Addressing systematic overcorrection for restriction of range"

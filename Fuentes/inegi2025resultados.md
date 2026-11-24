@@ -3,6 +3,9 @@ tipo: fuente
 citekey: inegi2025resultados
 pdf: "[[PDFs/inegi2025resultados.pdf]]"
 ia: sin restricción
+origen: "sitio oficial del INEGI"
+arbitraje: "no arbitrada (dato oficial)"
+version: "publicada"
 autores: ["Instituto Nacional de Estadística y Geografía"]
 año: 2025
 titulo: "Resultados definitivos de los Censos Económicos (CE) 2024"

@@ -3,6 +3,9 @@ tipo: fuente
 citekey: vanlancker2022hrm
 pdf: "[[PDFs/vanlancker2022hrm.pdf]]"
 ia: sin restricción
+origen: "repositorio de la Universidad de Gante"
+arbitraje: "arbitrada"
+version: "manuscrito aceptado"
 autores: ["Van Lancker, Evy", "Knockaert, Mirjam", "Audenaert, Mieke", "Cardon, Melissa"]
 año: 2022
 titulo: "HRM in entrepreneurial firms: A systematic review and research agenda"

@@ -3,6 +3,9 @@ tipo: fuente
 citekey: capitano2024if
 pdf: "[[PDFs/capitano2024if.pdf]]"
 ia: sin restricción
+origen: "EBSCO, biblioteca de la UDLAP"
+arbitraje: "arbitrada"
+version: "publicada"
 autores: ["Capitano, Johnna", "Thomas, Benjamin J.", "Meglich, Patricia"]
 año: 2024
 titulo: "If I knew then what I know now: How realistic previews of onboarding influence self-selection and expectations"

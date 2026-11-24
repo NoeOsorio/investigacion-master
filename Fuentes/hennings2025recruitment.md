@@ -3,6 +3,9 @@ tipo: fuente
 citekey: hennings2025recruitment
 pdf: "[[PDFs/hennings2025recruitment.pdf]]"
 ia: sin restricción
+origen: "EBSCO, biblioteca de la UDLAP"
+arbitraje: "arbitrada"
+version: "publicada"
 autores: ["Hennings, Matthias", "Pilz, Matthias", "Bebenroth, Ralf"]
 año: 2025
 titulo: "Recruitment practices in times of demographic change: The case of Japan"

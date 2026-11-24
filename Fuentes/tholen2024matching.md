@@ -3,6 +3,9 @@ tipo: fuente
 citekey: tholen2024matching
 pdf: "[[PDFs/tholen2024matching.pdf]]"
 ia: sin restricción
+origen: "repositorio de City, University of London"
+arbitraje: "arbitrada"
+version: "publicada"
 autores: ["Tholen, Gerbrand"]
 año: 2024
 titulo: "Matching candidates to culture: How assessments of organisational fit shape the hiring process"

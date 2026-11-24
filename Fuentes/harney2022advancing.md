@@ -3,6 +3,9 @@ tipo: fuente
 citekey: harney2022advancing
 pdf: "[[PDFs/harney2022advancing.pdf]]"
 ia: sin restricción
+origen: "repositorio de Dublin City University [verificar]"
+arbitraje: "arbitrada"
+version: "manuscrito aceptado"
 autores: ["Harney, Brian", "Gilman, Mark", "Mayson, Susan", "Raby, Simon"]
 año: 2022
 titulo: "Advancing understanding of HRM in small and medium-sized enterprises (SMEs): critical questions and future prospects"

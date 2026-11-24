@@ -3,6 +3,9 @@ tipo: fuente
 citekey: buenofernandez2024limitaciones
 pdf: "[[PDFs/buenofernandez2024limitaciones.pdf]]"
 ia: sin restricción
+origen: "[verificar]"
+arbitraje: "por verificar"
+version: "publicada"
 autores: ["Bueno Fernández, Mario Mitsuo", "Marín Balcázar, Guillermo", "Hernández Urbina, Neima Alicia"]
 año: 2024
 titulo: "Limitaciones de la gestión del recurso humano y sus funciones en las micro, pequeñas y medianas empresas industriales de la ciudad de Culiacán, Sinaloa, México"

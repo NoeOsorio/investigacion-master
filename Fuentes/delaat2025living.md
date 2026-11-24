@@ -3,6 +3,9 @@ tipo: fuente
 citekey: delaat2025living
 pdf: "[[PDFs/delaat2025living.pdf]]"
 ia: sin restricción
+origen: "EBSCO, biblioteca de la UDLAP"
+arbitraje: "arbitrada"
+version: "publicada"
 autores: ["de Laat, Kim"]
 año: 2025
 titulo: "Living to work (from home): Overwork, remote work, and gendered dual devotion to work and family"

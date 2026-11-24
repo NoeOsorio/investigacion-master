@@ -3,6 +3,9 @@ tipo: fuente
 citekey: bills2026competing
 pdf: "[[PDFs/bills2026competing.pdf]]"
 ia: prohibido
+origen: "EBSCO, biblioteca de la UDLAP"
+arbitraje: "arbitrada"
+version: "publicada"
 autores: ["Bills, Kenneth L.", "Hayne, Christie", "Stein, Sarah E."]
 año: 2026
 titulo: "Competing for talent: Addressing the “biggest is best” assumptions through small accounting firms’ recruiting practices"
