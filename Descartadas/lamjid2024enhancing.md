@@ -1,10 +1,11 @@
 ---
 tipo: fuente
 citekey: lamjid2024enhancing
-pdf: "[[PDFs/lamjid2024enhancing.pdf]]"
+pdf: "[[PDFs/Descartadas/lamjid2024enhancing.pdf]]"
 ia: sin restricción
 origen: "EBSCO, biblioteca de la UDLAP"
 arbitraje: "arbitrada con reservas"
+descartada: "2026-11-24, arbitrada con reservas: Scopus la descontinuó en 2025"
 version: "publicada"
 autores: ["Lamjid, Asmaa", "Ariss, Anass", "Ennejjai, Imane", "Mabrouki, Jamal", "Ziti, Soumia"]
 año: 2024

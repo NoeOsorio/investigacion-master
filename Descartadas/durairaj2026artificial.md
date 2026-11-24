@@ -1,10 +1,11 @@
 ---
 tipo: fuente
 citekey: durairaj2026artificial
-pdf: "[[PDFs/durairaj2026artificial.pdf]]"
+pdf: "[[PDFs/Descartadas/durairaj2026artificial.pdf]]"
 ia: prohibido
 origen: "EBSCO, biblioteca de la UDLAP"
 arbitraje: "no confiable"
+descartada: "2026-11-24, revista no confiable (señales de editorial depredadora)"
 version: "publicada"
 autores: ["Durairaj, D. Joseph", "Prabadevi, M. N."]
 año: 2026

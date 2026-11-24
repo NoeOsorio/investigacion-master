@@ -1,10 +1,11 @@
 ---
 tipo: fuente
 citekey: buenofernandez2024limitaciones
-pdf: "[[PDFs/buenofernandez2024limitaciones.pdf]]"
+pdf: "[[PDFs/Descartadas/buenofernandez2024limitaciones.pdf]]"
 ia: sin restricción
 origen: "[verificar]"
 arbitraje: "arbitrada con reservas"
+descartada: "2026-11-24, arbitrada con reservas: solo está en directorios, sin índice selectivo"
 version: "publicada"
 autores: ["Bueno Fernández, Mario Mitsuo", "Marín Balcázar, Guillermo", "Hernández Urbina, Neima Alicia"]
 año: 2024

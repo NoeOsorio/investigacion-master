@@ -15,6 +15,7 @@ views:
     filters:
       and:
         - tipo == "fuente"
+        - '!file.inFolder("Descartadas")'
     order:
       - file.name
       - autores
@@ -41,6 +42,7 @@ views:
     filters:
       and:
         - tipo == "fuente"
+        - '!file.inFolder("Descartadas")'
     groupBy:
       property: ia
       direction: ASC
@@ -66,6 +68,7 @@ views:
     filters:
       and:
         - tipo == "fuente"
+        - '!file.inFolder("Descartadas")'
     groupBy:
       property: arbitraje
       direction: ASC
@@ -75,3 +78,12 @@ views:
       - arbitraje
       - version
       - origen
+  - type: table
+    name: Descartadas
+    filters:
+      and:
+        - file.inFolder("Descartadas")
+    order:
+      - file.name
+      - arbitraje
+      - descartada
