@@ -4,7 +4,7 @@ citekey: durairaj2026artificial
 pdf: "[[PDFs/durairaj2026artificial.pdf]]"
 ia: prohibido
 origen: "EBSCO, biblioteca de la UDLAP"
-arbitraje: "por verificar"
+arbitraje: "no confiable"
 version: "publicada"
 autores: ["Durairaj, D. Joseph", "Prabadevi, M. N."]
 año: 2026
@@ -22,3 +22,5 @@ usada_en: []
 
 ### Lo que yo pienso
 Revista de calidad dudosa (promete «indexación en todas las bases» y no muestra revisión por pares clara) y redacción deficiente. Sirve, como mucho, para ver cómo se vende la IA en contratación; no como evidencia.
+
+*Arbitraje comprobado (2026-11-23): no confiable. La revista dice tener revisión doble ciega, pero cobra por publicar, revisa en días, acepta tesis de licenciatura y no está en ningún índice comprobable (Scopus, Web of Science, DOAJ). No cuenta como fuente arbitrada.*

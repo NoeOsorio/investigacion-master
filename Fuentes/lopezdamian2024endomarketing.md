@@ -4,7 +4,7 @@ citekey: lopezdamian2024endomarketing
 pdf: "[[PDFs/lopezdamian2024endomarketing.pdf]]"
 ia: sin restricción
 origen: "Redalyc"
-arbitraje: "por verificar"
+arbitraje: "arbitrada"
 version: "publicada"
 autores: ["López Damián, Jesús Alberto", "Yee Villanueva, Elizabeth"]
 año: 2024
@@ -19,3 +19,5 @@ usada_en: []
 **Referencia:** López Damián, J. A. y Yee Villanueva, E. (2024). Las 5E del endomarketing para reducir la rotación de personal en las pymes. *Revista de Investigación en Ciencias de la Administración ENFOQUES, 8*(30), 126–144. https://doi.org/10.33996/revistaenfoques.v8i30.184
 
 *Datos verificados en Crossref (2026-11-13). PDF de Redalyc. Licencia CC BY-NC-SA 4.0. Autores de la Universidad del País Innova, México.*
+
+*Arbitraje comprobado (2026-11-23): arbitrada, doble ciego. Está en Redalyc, Dialnet, ERIHPlus y el Directorio de Latindex. No está en Scopus ni Web of Science.*

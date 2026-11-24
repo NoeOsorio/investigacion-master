@@ -4,7 +4,7 @@ citekey: buenofernandez2024limitaciones
 pdf: "[[PDFs/buenofernandez2024limitaciones.pdf]]"
 ia: sin restricción
 origen: "[verificar]"
-arbitraje: "por verificar"
+arbitraje: "arbitrada con reservas"
 version: "publicada"
 autores: ["Bueno Fernández, Mario Mitsuo", "Marín Balcázar, Guillermo", "Hernández Urbina, Neima Alicia"]
 año: 2024
@@ -19,3 +19,5 @@ usada_en: []
 **Referencia:** Bueno Fernández, M. M., Marín Balcázar, G. y Hernández Urbina, N. A. (2024). Limitaciones de la gestión del recurso humano y sus funciones en las micro, pequeñas y medianas empresas industriales de la ciudad de Culiacán, Sinaloa, México. *Revista FACES, 6*(2), 395–422. https://servicio.bc.uc.edu.ve/faces/revista/evol6n2/art07.pdf
 
 *Datos tomados del PDF (2026-11-13). Revista de la Universidad de Carabobo, Venezuela. No tiene DOI registrado en Crossref. Licencia `[verificar]`.*
+
+*Arbitraje comprobado (2026-11-23): la revista declara arbitraje doble ciego, pero solo está en directorios (Latindex Directorio, ROAD), no en un índice selectivo. Usarla acompañada de fuentes mejor indizadas.*
