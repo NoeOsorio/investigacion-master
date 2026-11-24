@@ -18,7 +18,7 @@ usada_en: []
 ---
 **Referencia:** Secretaría de Economía. (2009, 30 de junio). Acuerdo por el que se establece la estratificación de las micro, pequeñas y medianas empresas. *Diario Oficial de la Federación*. https://www.dof.gob.mx/nota_detalle.php?codigo=5096849&fecha=30/06/2009
 
-*Datos tomados del texto publicado en el sitio oficial del Diario Oficial de la Federación (2026-11-24). Dominio público. Es la definición oficial de micro, pequeña y mediana empresa en México, por número de trabajadores, giro y ventas anuales. Vigencia en 2026 `[verificar]`: las reglas del Fondo PYME de 2012 todavía la usan, pero no se comprobó si hubo un acuerdo posterior. Hay un acuerdo anterior de la Secretaría de Comercio y Fomento Industrial con otros rangos, ya sustituido.*
+*Datos tomados del texto publicado en el sitio oficial del Diario Oficial de la Federación (2026-11-24). Dominio público. Es la definición oficial de micro, pequeña y mediana empresa en México, por número de trabajadores, giro y ventas anuales. Vigencia: la ley vigente ([[congreso2023ley]], última reforma de 2023) remite a la estratificación que publique la Secretaría de Economía, y este acuerdo sigue en el marco normativo actual de esa Secretaría (https://www.economia.gob.mx/files/marco_normativo/A539.pdf, consultado el 2026-11-24); no se encontró un acuerdo posterior que lo sustituya. Hay un acuerdo anterior de la Secretaría de Comercio y Fomento Industrial con otros rangos, ya sustituido.*
 
 ### Lo que establece
 
