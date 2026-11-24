@@ -3,7 +3,7 @@ tipo: fuente
 citekey: pham2026when
 pdf: "[[PDFs/pham2026when.pdf]]"
 ia: sin restricción
-origen: "repositorio de la Universitat Ramon Llull"
+origen: "repositorio de la Universitat Ramon Llull, con el PDF de la editorial"
 arbitraje: "arbitrada"
 version: "publicada"
 autores: ["Pham, Dong Nghi", "Rios, Luis A.", "Workiewicz, Maciej"]

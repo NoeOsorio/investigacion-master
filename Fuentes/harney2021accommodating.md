@@ -3,7 +3,7 @@ tipo: fuente
 citekey: harney2021accommodating
 pdf: "[[PDFs/harney2021accommodating.pdf]]"
 ia: sin restricción
-origen: "repositorio de Dublin City University"
+origen: "repositorio de Dublin City University, con el PDF de la revista"
 arbitraje: "arbitrada"
 version: "publicada"
 autores: ["Harney, Brian"]
