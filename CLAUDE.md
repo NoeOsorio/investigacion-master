@@ -112,6 +112,7 @@ Noe estudia en la UDLAP. Su guía (Centro de Escritura, https://www.udlap.mx/cen
 - **Referencias:** título «Referencias»; mínimo 15 fuentes; fuentes electrónicas especializadas y arbitradas; orden alfabético estricto, sin numeración ni viñetas; doble espacio.
 - **Citas:** directa corta (menos de 40 palabras) entre comillas, con página; directa larga en bloque, a espacio sencillo. Cita de cita: «(Martínez, citado en Cortés, 1999, p. 52)».
 - **Evaluación:** argumentación con el modelo de Toulmin 50 %, formato 20 %, adecuación discursiva 30 %.
+- **Terminología (decisión de Noe, 2026-11-27):** el objeto de estudio son las micro y pequeñas empresas, sin medianas. En el texto se definen una vez como «micro y pequeñas empresas (en adelante, mypes)» y después se escribe siempre «mypes». Para lo que encontró una fuente que estudió también medianas se escribe «pymes», que es lo que estudió. Citas de tres o más autores con «et al.».
 - Las referencias se escriben en APA 7, edición en español: «y» entre autores, «s.f.», «Recuperado el … de», «Artículo N».
 
 ## Respaldo
